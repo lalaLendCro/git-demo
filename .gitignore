@@ -1,5 +1,5 @@
 # no log files
-.log
+another.log
 
 # ignore all files in build/ directory
 build/
