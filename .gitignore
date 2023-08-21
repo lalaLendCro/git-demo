@@ -1,0 +1,19 @@
+# no log files
+.log
+
+# ignore all files in build/ directory
+build/
+
+# but do track error.log files
+!error.log
+
+# only ignore TODO file in current directory, not subdir /TODO
+/TODO
+
+# ignore doc/notes.txt, but not doc/server/arch.txt
+doc/*.txt
+
+# ignore all .pdf files in the doc/ directory
+doc/**/*.pdf
+
+
